@@ -1,18 +1,17 @@
 {
-  "timestamp": "2025-09-03T10:40:12.250366+00:00",
-  "doctors": 3,
-  "patients": 8,
-  "appointments_created": 4,
+  "timestamp": "2025-09-03T12:25:53.166751+00:00",
+  "doctors": 2,
+  "patients": 5,
+  "appointments_created": 15,
   "hospitals": 2,
   "doctor_specializations": {
-    "doc_pop_0@example.com": "neurology",
-    "doc_pop_1@example.com": "radiology",
-    "doc_pop_2@example.com": "surgery"
+    "doc_pop_0@example.com": "oncology",
+    "doc_pop_1@example.com": "dermatology"
   },
-  "doctor_notes_updates": 9,
-  "csv_report_path": "S:\\Hotel Management\\backend\\tests\\output\\appointments_2025-09-03.csv",
-  "pdf_report_path": "S:\\Hotel Management\\backend\\tests\\output\\appointments_2025-09-03.pdf",
-  "csv_length": 1656,
-  "pdf_length": 1866,
-  "availability_entries_attempted": 6
+  "doctor_notes_updates": 5,
+  "csv_report_path": "c:\\Projects\\HMS\\backend\\tests\\output\\appointments_2025-09-03.csv",
+  "pdf_report_path": "c:\\Projects\\HMS\\backend\\tests\\output\\appointments_2025-09-03.pdf",
+  "csv_length": 317,
+  "pdf_length": 1597,
+  "availability_entries_attempted": 4
 }

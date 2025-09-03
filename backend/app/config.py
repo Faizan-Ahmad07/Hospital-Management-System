@@ -6,7 +6,7 @@ class Settings(BaseModel):
     APP_NAME: str = "Hospital Management System"
     ENV: str = os.getenv("ENV", "dev")
     DEBUG: bool = ENV == "dev"
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "mysql+pymysql://Testing:1234@localhost:3306/hms_db")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "mysql+pymysql://testing:1234@localhost:3306/hms_db")
     JWT_SECRET_KEY: str = os.getenv("JWT_SECRET_KEY", "change_me_secret")
     JWT_REFRESH_SECRET_KEY: str = os.getenv("JWT_REFRESH_SECRET_KEY", "change_me_refresh")
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
